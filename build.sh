@@ -1,4 +1,6 @@
-#!/bin/sh
-# 前端应用存在NPM依赖时的默认编译脚本
 npm install
+npm install --save font-awesome
+npm install sass-loader --save-dev
+cnpm install node-sass --save-dev
+cnpm install sass-loader@7.0.3
 npm run build
